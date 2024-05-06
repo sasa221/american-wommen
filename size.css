@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: white;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none ;
+    margin-bottom: 10px;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+    color: rgb(119, 8, 41);
+    text-decoration: none;
+}
+p{
+    color: rgb(119, 8, 41);
+}
+.continer{
+    max-width: 1900px;
+    margin-bottom: 400px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+
+
+}
+
+main {
+    padding: 2rem;
+}
+
+.size-chart {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 0.5rem;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: rgb(119, 8, 41);;
+    color: #fff;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+div img{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    float:right;
+    margin-left: 15px;
+    margin-right:30px;
+}
+.guide{
+    background-color:#f9f9f9 ;
+
+}
+.guide p{
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+.sev{
+    font-size: 20px;
+}

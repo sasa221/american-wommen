@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none ;
+    margin-bottom: 10px;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+    color: rgb(119, 8, 41);
+    text-decoration: none;
+}
+p{
+    color: rgb(119, 8, 41);
+}
+body.light-mode {
+    background-color: #ffffff;
+    color: #000000;}
+
+body.dark-mode {
+    background-color: #1e1e1e;
+    color: #ffffff;}
+.container{
+    max-width: 1900px;
+    margin-bottom: 400px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.clothing-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.item {
+    text-align: center;
+    margin-bottom: 20px;
+    width: 300px
+}
+.item {
+    background-color: #715962b8;
+    width: 21.25em;
+    box-shadow: 0 5px  25px rgba( 1 1 1 / 15%);
+    border-radius: 10px;
+    padding: 7px;
+    margin: 7px;
+    transition: 0.7s ease ;
+}
+.item:hover{
+    transform: scale(1.1);
+
+}
+
+
+.item img {
+    max-width: 100%;
+    height: 300px;
+    border-radius: 8px;
+}
+
+.item h2 {
+    margin-top: 10px;
+}
+
+.item p {
+    font-size: 18px;
+    color: #f9eded;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.rounded-button {
+    background-color: firebrick;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.rounded-button:hover {
+    background-color: rgb(213, 23, 80);
+}

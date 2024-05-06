@@ -1,0 +1,14 @@
+.background-effect {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: url('css/afra.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+body, .navbar, .category-section, .photo2 {
+    position: relative;
+    z-index: 1;
+}
